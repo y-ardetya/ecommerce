@@ -13,15 +13,16 @@ const Carousel = () => {
     autoplay: true,
     autoplaySpeed: 8000,
     arrows: false,
+    padding: "60px",
   };
   return (
-    <div className="mt-5">
+    <div className="">
       <Slider {...settings}>
         <div className="flex">
           <a className="flex justify-center items-center">
             <img
               src={require("../assets/yelan.jpg")}
-              className="w-[1400px] h-[530px] rounded-xl cursor-pointer object-cover"
+              className="w-[1900px] h-[530px]  cursor-pointer object-cover"
               alt="a"
             />
           </a>
@@ -30,7 +31,7 @@ const Carousel = () => {
           <a className="flex justify-center items-center">
             <img
               src={require("../assets/surtur.jpg")}
-              className="w-[1400px] h-[530px] rounded-xl cursor-pointer object-cover"
+              className="w-[1900px] h-[530px]  cursor-pointer object-cover"
               alt="a"
             />
           </a>
@@ -39,7 +40,7 @@ const Carousel = () => {
           <a className="flex justify-center items-center">
             <img
               src={require("../assets/yelan.jpg")}
-              className="w-[1400px] h-[530px] rounded-xl cursor-pointer object-cover"
+              className="w-[1900px] h-[530px]  cursor-pointer object-cover"
               alt="a"
             />
           </a>
@@ -48,7 +49,7 @@ const Carousel = () => {
           <a className="flex justify-center items-center">
             <img
               src={require("../assets/surtur.jpg")}
-              className="w-[1400px] h-[530px] rounded-xl cursor-pointer object-cover"
+              className="w-[1900px] h-[530px]  cursor-pointer object-cover"
               alt="a"
             />
           </a>
@@ -57,7 +58,7 @@ const Carousel = () => {
           <a className="flex justify-center items-center">
             <img
               src={require("../assets/yelan.jpg")}
-              className="w-[1400px] h-[530px] rounded-xl cursor-pointer object-cover"
+              className="w-[1900px] h-[530px]  cursor-pointer object-cover"
               alt="a"
             />
           </a>
@@ -66,7 +67,7 @@ const Carousel = () => {
           <a className="flex justify-center items-center">
             <img
               src={require("../assets/surtur.jpg")}
-              className="w-[1400px] h-[530px] rounded-xl cursor-pointer object-cover"
+              className="w-[1900px] h-[530px] cursor-pointer object-cover"
               alt="a"
             />
           </a>
