@@ -1,6 +1,6 @@
 import Carousel from "../components/Carousel";
-import Footer from "../components/Footer";
-import Products from "../components/Products";
+import Products from "../components/PremiumProducts";
+import ShowCase from "../components/ShowCase";
 
 const Home = () => {
   return (
@@ -8,6 +8,7 @@ const Home = () => {
       <div className="">
         <Carousel />
         <Products />
+        <ShowCase />
       </div>
     </>
   );
